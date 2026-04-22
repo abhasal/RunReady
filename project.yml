@@ -1,0 +1,65 @@
+# XcodeGen project specification for RunReady
+# Install: brew install xcodegen
+# Generate: cd RunReady && xcodegen generate
+
+name: RunReady
+options:
+  bundleIdPrefix: com.yourname       # TODO: Replace with your Apple Developer team prefix
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    TARGETED_DEVICE_FAMILY: "1"      # iPhone only
+    DEVELOPMENT_TEAM: ""             # TODO: Insert your 10-character Apple Team ID
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  RunReady:
+    type: application
+    platform: iOS
+    sources:
+      - path: RunReady
+        excludes:
+          - "**/*.md"
+    info:
+      path: RunReady/Info.plist
+      properties:
+        CFBundleDisplayName: RunReady
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSHealthShareUsageDescription: "RunReady reads your running workouts and heart rate data to track runs and assess race readiness."
+        NSHealthUpdateUsageDescription: "RunReady does not write health data."
+        NSLocationWhenInUseUsageDescription: "RunReady uses your location to trace your route during a run."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "RunReady uses background location to continue tracking your route during a run."
+        NSMotionUsageDescription: "RunReady uses motion data to improve step detection during runs."
+        UIBackgroundModes:
+          - audio
+          - location
+        ITSAppUsesNonExemptEncryption: false
+    entitlements:
+      path: RunReady/RunReady.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access:
+          - health-records
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.RunReady  # TODO: Set your bundle ID
+
+  RunReadyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - RunReadyTests
+    dependencies:
+      - target: RunReady
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.RunReadyTests

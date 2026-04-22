@@ -1,0 +1,23 @@
+{
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/Music/MiniPlayerView.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MiniPlayerView.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MiniPlayerView.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MiniPlayerView.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MiniPlayerView.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MiniPlayerView.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/Music/MusicPlayerSheet.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MusicPlayerSheet.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MusicPlayerSheet.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MusicPlayerSheet.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MusicPlayerSheet.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/MusicPlayerSheet.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/Onboarding/OnboardingView.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/OnboardingView.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/OnboardingView.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/OnboardingView.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/arm64/OnboardingView.swiftdeps"
+  }
+}

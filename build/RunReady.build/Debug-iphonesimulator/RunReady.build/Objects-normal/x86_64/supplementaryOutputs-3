@@ -1,0 +1,23 @@
+{
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/ViewModels/ActiveRunViewModel.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunViewModel.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunViewModel.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunViewModel.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunViewModel.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/ActiveRun/ActiveRunView.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunView.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunView.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunView.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunView.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/ActiveRunView.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/AddRun/AddRunView.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AddRunView.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AddRunView.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AddRunView.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AddRunView.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AddRunView.swiftdeps"
+  }
+}

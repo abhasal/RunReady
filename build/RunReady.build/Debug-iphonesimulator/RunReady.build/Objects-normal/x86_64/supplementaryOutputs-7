@@ -1,0 +1,23 @@
+{
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Models/AudioModels.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioModels.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioModels.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioModels.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioModels.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioModels.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Services/AudioPlaybackManager.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioPlaybackManager.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioPlaybackManager.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioPlaybackManager.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioPlaybackManager.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/AudioPlaybackManager.swiftdeps"
+  },
+  "/Users/ayansh/Personal/projects/RunReady/RunReady/Views/Dashboard/DashboardView.swift" : {
+    "const-values" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/DashboardView.d",
+    "diagnostics" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/DashboardView.dia",
+    "object" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/DashboardView.o",
+    "swift-dependencies" : "/Users/ayansh/Personal/projects/RunReady/build/RunReady.build/Debug-iphonesimulator/RunReady.build/Objects-normal/x86_64/DashboardView.swiftdeps"
+  }
+}
