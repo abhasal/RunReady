@@ -83,6 +83,15 @@ struct SettingsView: View {
                         // TODO: Replace with real terms URL before App Store submission
                     }
 
+                    // Help & Support
+                    Section("Help & Support") {
+                        NavigationLink {
+                            HelpView()
+                        } label: {
+                            Label("How to Use RunReady", systemImage: "questionmark.circle")
+                        }
+                    }
+
                     // Danger zone
                     Section("Data") {
                         Button(role: .destructive) {
@@ -214,6 +223,228 @@ struct DisclaimerView: View {
         }
         .navigationTitle("Disclaimer & Terms")
         .background(RunReadyGradient())
+    }
+}
+
+// MARK: - Help View
+
+struct HelpView: View {
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 24) {
+                // Header
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("How to Use RunReady")
+                        .font(.title2.bold())
+                    Text("Your complete guide to tracking runs and staying ready for races")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
+                // Getting Started
+                helpSection(
+                    title: "🚀 Getting Started",
+                    icon: "figure.run.circle.fill",
+                    color: .blue,
+                    content: """
+                    Welcome to RunReady! Here's how to get started:
+
+                    1. **Complete Setup**: Go through the initial onboarding to grant permissions
+                    2. **Grant Permissions**: Allow location access for GPS tracking and Health access for workout data
+                    3. **Start Your First Run**: Tap the "Start Run" button on the Dashboard
+                    """
+                )
+
+                // Dashboard
+                helpSection(
+                    title: "📊 Dashboard",
+                    icon: "chart.bar.fill",
+                    color: .purple,
+                    content: """
+                    Your main hub for everything running:
+
+                    • **Today's Stats**: See your runs for today
+                    • **Weekly/Monthly Totals**: Track your progress over time
+                    • **Race Readiness**: Get personalized race recommendations based on your training
+                    • **Quick Actions**: Start runs, view history, or check analytics
+                    • **Latest Run**: Quick access to your most recent workout
+                    """
+                )
+
+                // Starting Runs
+                helpSection(
+                    title: "🏃‍♂️ Starting & Tracking Runs",
+                    icon: "play.circle.fill",
+                    color: .green,
+                    content: """
+                    Two ways to track your runs:
+
+                    **GPS Tracking (Recommended)**:
+                    • Tap "Start Run" on the Dashboard
+                    • Grant location permissions when prompted
+                    • RunReady tracks your route, distance, pace, and heart rate
+                    • Background audio keeps playing your music
+
+                    **Manual Entry**:
+                    • Tap "Add Run" from Dashboard or History tab
+                    • Enter distance, duration, and date
+                    • Perfect for treadmill runs or when GPS isn't available
+                    """
+                )
+
+                // During Your Run
+                helpSection(
+                    title: "🎯 During Your Run",
+                    icon: "map.fill",
+                    color: .orange,
+                    content: """
+                    Real-time tracking features:
+
+                    • **Live Map**: See your route as you run
+                    • **Real-time Stats**: Distance, pace, time, and heart rate
+                    • **Music Controls**: Play/pause music without stopping
+                    • **Safety First**: Large, easy-to-see controls while running
+                    • **Background Tracking**: Continues when app is minimized
+                    """
+                )
+
+                // Music Features
+                helpSection(
+                    title: "🎵 Music & Audio",
+                    icon: "music.note",
+                    color: .pink,
+                    content: """
+                    Run with your favorite tunes:
+
+                    • **Built-in Playlist**: Curated running tracks included
+                    • **Background Playback**: Music continues while tracking
+                    • **Easy Controls**: Play/pause/skip during runs
+                    • **Audio Focus**: Automatically pauses when needed
+                    • **Safe Running**: Designed not to distract from your surroundings
+                    """
+                )
+
+                // Analytics & Insights
+                helpSection(
+                    title: "📈 Analytics & Progress",
+                    icon: "chart.line.uptrend.xyaxis",
+                    color: .indigo,
+                    content: """
+                    Understand your training:
+
+                    • **Lifetime Stats**: Total runs, distance, and time
+                    • **Weekly Charts**: Visualize your training patterns
+                    • **Monthly Breakdown**: See trends over time
+                    • **Personal Records**: Track your best performances
+                    • **Race Readiness**: Algorithm-based recommendations for race distances
+                    """
+                )
+
+                // History & Management
+                helpSection(
+                    title: "📚 Run History",
+                    icon: "clock.fill",
+                    color: .teal,
+                    content: """
+                    Manage your running data:
+
+                    • **Complete History**: View all your runs chronologically
+                    • **Detailed View**: See maps, splits, and heart rate data
+                    • **Edit Runs**: Modify or delete entries as needed
+                    • **Export Data**: Your data stays on your device
+                    • **Health Integration**: Syncs with Apple Health automatically
+                    """
+                )
+
+                // Settings & Customization
+                helpSection(
+                    title: "⚙️ Settings & Preferences",
+                    icon: "gear",
+                    color: .gray,
+                    content: """
+                    Customize your experience:
+
+                    • **Units**: Choose between miles/kilometers
+                    • **Heart Rate Display**: Show/hide heart rate data
+                    • **Notifications**: Get reminded to run
+                    • **Health Sync**: Manual sync with Apple Health
+                    • **Data Management**: Export or delete your data
+                    """
+                )
+
+                // Race Readiness
+                helpSection(
+                    title: "🏁 Race Readiness",
+                    icon: "flag.checkered",
+                    color: .red,
+                    content: """
+                    Smart race recommendations:
+
+                    • **Conservative Algorithm**: Based on your training history
+                    • **Distance Assessment**: 5K, 10K, Half Marathon, Marathon
+                    • **Training Analysis**: Considers recent mileage and consistency
+                    • **Safety First**: Never recommends races you're not ready for
+                    • **Regular Updates**: Recalculates as you train more
+                    """
+                )
+
+                // Tips & Best Practices
+                helpSection(
+                    title: "💡 Tips for Success",
+                    icon: "lightbulb.fill",
+                    color: .yellow,
+                    content: """
+                    Make the most of RunReady:
+
+                    • **Consistent Tracking**: Log every run for better insights
+                    • **GPS Accuracy**: Run outdoors for best route tracking
+                    • **Battery Management**: Close other apps during long runs
+                    • **Regular Sync**: Keep Health data up to date
+                    • **Safety Priority**: Always run in safe environments
+                    • **Gradual Progression**: Follow the app's readiness recommendations
+                    """
+                )
+
+                // Support
+                VStack(alignment: .leading, spacing: 16) {
+                    Text("🆘 Need Help?")
+                        .font(.headline)
+
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("• **Legal & Safety**: Review the Disclaimer & Terms in Settings")
+                        Text("• **Data Privacy**: Your runs stay private on your device")
+                        Text("• **Health Integration**: Automatic sync with Apple Health")
+                        Text("• **Permissions**: Grant location and health access for full features")
+                    }
+                    .font(.body)
+                    .foregroundStyle(.secondary)
+                }
+                .padding(.top, 8)
+
+                Spacer(minLength: 40)
+            }
+            .padding()
+        }
+        .navigationTitle("Help & Guide")
+        .background(RunReadyGradient())
+    }
+
+    private func helpSection(title: String, icon: String, color: Color, content: String) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 8) {
+                Image(systemName: icon)
+                    .foregroundStyle(color)
+                    .font(.title3)
+                Text(title)
+                    .font(.headline)
+            }
+
+            Text(content)
+                .font(.body)
+                .lineSpacing(4)
+                .foregroundStyle(.secondary)
+        }
+        .padding(.vertical, 8)
     }
 }
 
