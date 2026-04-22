@@ -25,12 +25,15 @@ targets:
       - path: RunReady
         excludes:
           - "**/*.md"
+    resources:
+      - path: RunReady.png
     info:
       path: RunReady/Info.plist
       properties:
         CFBundleDisplayName: RunReady
         CFBundleVersion: "1"
         CFBundleShortVersionString: "1.0"
+        CFBundleIconFiles: ["RunReady"]
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
