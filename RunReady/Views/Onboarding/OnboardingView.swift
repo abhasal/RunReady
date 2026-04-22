@@ -7,6 +7,12 @@ struct OnboardingView: View {
 
     private let pages: [OnboardingPage] = [
         OnboardingPage(
+            icon: "exclamationmark.triangle.fill",
+            color: .orange,
+            title: "Important Disclaimer",
+            description: "This app provides informational run-tracking and race-readiness estimates only. It is not medical, fitness, or nutrition advice. Race readiness is directional and not a guarantee that you are physically prepared for any race. Always consult a physician, trainer, or dietitian before making training decisions. Running involves risk, and you are responsible for your own safety and precautions. To the fullest extent permitted by law, the developer is not liable for any injury, loss, or damage resulting from use of this app."
+        ),
+        OnboardingPage(
             icon: "figure.run",
             color: .blue,
             title: "Track Every Run",
